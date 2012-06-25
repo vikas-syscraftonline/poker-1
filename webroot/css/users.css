@@ -1,0 +1,5 @@
+table#login, table#login table, table#login td, table#login table td { border: 0px; }
+table#register, table#register table, table#register td, table#register table td { border: 0px; }
+
+.index table tr td { text-align: center; }
+.index table tr td.actions { font-weight: bold; }

@@ -1,0 +1,42 @@
+/* tag styles */
+body,html { margin:0px; padding:0px; font-family:Helvetica, Arial, sans-serif; font-size: 10pt; background: #747b7e url('/img/bggradient.png') top left repeat-x; color: #000; }
+a { text-decoration: none; color: #0099CC; }
+table { width: 100%; margin: 10px 0px; border-collapse: collapse; }
+table tr th { background-color: #ccc; color: #666; padding: 2px; }
+table tr td { padding: 2px; }
+legend { font-size: 12pt; font-weight: bold; color: #0a0; }
+fieldset label { width: 200px; }
+ul { list-style: none inside; margin: 0px; padding: 0px; }
+h1,h2,h3 { color: #0a0; }
+img { border: 0px; }
+input[type=submit],button,a.button { border: 1px solid #666; background-color: #ddd; padding: 0px 6px; color: #0099cc; font: 10pt Helvetica,Arial,sans-serif; margin: 0px 2px; }
+a.button { padding: 1px 6px; }
+
+/* layout styles */
+#oldiesucks { background-color: #ee0; color: #f00; text-align: center; display:none; }
+
+#header { background: transparent url('/img/headerbg.png') top center no-repeat; padding: 0px 0px; width: 920px; height: 160px; margin: 5px auto 0px auto; }
+#header #navmenu { margin-top: 0px; color: #eee; margin-top: 138px; margin-left: 40px; float: left; font-weight: bold; }
+#header #navmenu a { color: #eee; }
+#header #navmenu ul li { display: inline; margin-right: 20px; }
+#header #usermenu { margin-top: 0px; color: #eee; margin-top: 138px; margin-right: 40px; float: right; font-weight: bold; }
+#header #usermenu a { color: #eee; }
+#header #usermenu ul li { display: inline; margin-left: 20px; }
+
+#contentBody { background: transparent url('/img/contentbg.png') top center repeat-y; padding: 10px 0px; width: 920px; margin: 0px auto; }
+#contentBody div#content { padding: 0px 32px; }
+
+#footer { background: transparent url('/img/footerbg.png') top center no-repeat; padding: 0px 0px; width: 920px; height: 105px; margin: 0px auto 20px auto; text-align: center; color: #aaa; font-size: 8pt; }
+
+/* common elements */
+.empty { font-style: italic; }
+
+#authMessage, #flashMessage, #errorMessage { font-size: 14pt; color: #a00; }
+div.error-message { color: #f00; font-weight: bold; }
+.paging { float: right; }
+.paging div { display: inline; }
+div.actions { background-color: #ccc; padding-left: 20px; }
+div.actions ul { margin-top: 10px; }
+div.actions ul li { display: inline; margin-right: 20px; }
+div.actions ul li.label { font-weight: bold; }
+

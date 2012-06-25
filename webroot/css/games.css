@@ -1,0 +1,30 @@
+/* index styles */
+.news span.title { text-decoration: underline; font-weight: bold; }
+.news span.date { font-size: 8pt; color: #666; }
+.news div.text { color: #000; padding-left: 20px; }
+table#gamelist { border: 1px solid black; }
+table#gamelist tr td { border-top: 1px solid #000; border-right: 1px solid #000; text-align: center; padding: 4px; 0px; }
+table#gamelist tr .date { width: 85px; }
+table#gamelist tr .time { width: 70px; }
+table#gamelist tr .address { width: 180px; }
+table#gamelist tr .host { width: 75px; }
+table#gamelist tr .count { width: 30px; }
+table#gamelist tr .comments { width: 30px; }
+table#gamelist tr td.actions { padding: 6px 0px 2px 0px; }
+
+/* view styles */
+dl dt { font-weight: bold; }
+table#gametable tr td { width: 50%; }
+
+#map_canvas { width: 320px; height: 240px; border: 1px solid black; display: none; }
+
+#attendance dt { color: #f90; }
+#attendance dd { font-size: 12pt; }
+
+#attendance form input[type=text] { width: 20px; text-align: center; }
+
+#comments textarea { width: 50%; height: 65px; }
+#comments dl dt { font-weight: normal; padding-top: 10px; }
+#comments dl dt .name { font-size: 12pt; color: #933; font-weight: bold; }
+#comments dl dt .date { font-size: 8pt; color: #aaa; font-weight: bold; text-align: right; margin-bottom: -5px; padding: 0px; }
+#comments #comment_form { margin-top: 20px; }
