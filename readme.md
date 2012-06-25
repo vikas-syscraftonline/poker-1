@@ -22,7 +22,11 @@ If you want to make a user an admin user (so they can do all kinds of fun admin 
 Usage
 ===
 
-You'll need to tie it to your own MySQL server my modifying the config/database.php file. Import poker.sql to your server to get started. You'll also need to make a change to the users_controller.php file so that user activation emails get sent to an address you have access to; see the __sendRegisteredEmail() function.
+You'll need to tie it to your own MySQL server my modifying the config/database.php file. Import poker.sql to your server to get started. 
+
+You'll also need to make a change to the `users_controller.php` file so that user activation emails get sent to an address you have access to; see the `__sendRegisteredEmail()` function.
+
+Lastly, you'll need CakePHP 1.3. Put it in the directory above where you install this application. You'll also need to symlink it to `cakephp_1.3`. If that doesn't work, fiddle with `webroot/index.php`.
 
 License
 ===
